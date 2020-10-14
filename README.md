@@ -19,6 +19,29 @@
 # 核心代码
 #### 
 ```
+public class personnel {
+    int number;//编号
+    String name;//姓名
+    char gender;//性别
+    personnel(int number,String name,char gender){
+        this.number = number;
+        this.name = name;
+        this.gender = gender;
+
+    }
+}
+```
+```
+public class student extends personnel{
+    courses r;//所选课程
+    public student(int number,String name,char gender,courses r){
+        super(number,name,gender);
+        this.r = r;
+    }
+    public String toString() {
+        return "编号: "+number+" 姓名: "+name+" 性别: "+gender+" 所学课程: "+r;
+    }
+}
 ```
 # 系统运行截图
 ![实验结果截图](https://github.com/dongtianshuo/dongtianshuo2/blob/main/Snipaste_2020-10-14_11-06-09.png)
