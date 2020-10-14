@@ -21,6 +21,6 @@
 ```
 ```
 # 系统运行截图
-
+![实验结果截图](https://github.com/dongtianshuo/dongtianshuo2/blob/main/Snipaste_2020-10-14_11-06-09.png)
 # 实验总结
 
